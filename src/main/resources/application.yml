@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/test
+      uri: mongodb://mongodb:27017/test
       auto-index-creation: true
 
 eureka:
