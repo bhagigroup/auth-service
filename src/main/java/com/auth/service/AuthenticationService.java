@@ -24,7 +24,6 @@ private final UserRepo userRepository;
 
     public AuthenticationService(
         UserRepo userRepository,
-        
         AuthenticationManager authenticationManager,
         PasswordEncoder passwordEncoder
     ) {
